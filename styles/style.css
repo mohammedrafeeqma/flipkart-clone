@@ -5,8 +5,17 @@
     font-family: Roboto,Arial,sans-serif;
     font-size: 14px;
     line-height: 0.5;
+    text-decoration: none;
+    
+}
+body{
+    background-color: #f1f3f6;
+    
 }
 /* header */
+header{
+    
+}
 header .container{
     width: 100%;
     height: 56px;
@@ -15,6 +24,7 @@ header .container{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    
     
 }
 header .container .flipcart-icon{
@@ -89,6 +99,10 @@ header .container .more-btn{
     font-size: 16px;
     letter-spacing: .2px;
 }
+header .cart-h2{
+    margin-top: 6px;
+}
+
 nav img{
     height: 64px;
     width: 64px;
@@ -102,4 +116,170 @@ nav .inner-nav p{
     margin: 8px 0px 1px 8px;
     font-weight: 500;
     font-size: 14px;
+}
+.sbi img{
+    margin-top: 10px;
+    width: 100%;
+    height: 130px;
+}
+main div .card{
+    width: 230px;
+    height: 361px;
+    padding: 28px 10px 124px;
+    background-image: url("/images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: bottom;
+    text-align: center;
+    padding-top: 100px;
+    background-color: #fff;
+
+}
+main div .card6{
+    background-image: url("/images/bg2.jpg");
+}
+main .card h2{
+    font-size: 30px;
+    line-height: 2.38;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-left: 16px;
+}
+main .card button{
+    height: 37.6px;
+    width: 95.65px;
+    background-color: #2874f0;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+}
+main .card a{ 
+    color: #fff;
+    border: none;  
+}
+main .cards{
+    margin: 10px 0px 0px 10px;
+    display: flex;
+    background-color: #fff;;
+
+}
+main .card1{
+    width: 200px;
+    height: 361px;
+    margin-left: 20px;
+    
+}
+main .card-img{
+    width: 132px;
+    height: 210px;
+    margin: 20px 25px;
+}
+.card1 h2{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 18px 0px 0px 38px;
+    line-height: 2;
+}
+.card1 .amount{
+    line-height: 2;
+    margin-left: 44px;
+    font-size: 16px;
+    color: #388e3c;
+}
+.card1 .spec{
+    line-height: 2;
+    margin-left: 30px;
+
+
+
+}
+.boat-card{
+    width: 200px;
+    height: 354px;
+}
+.offers{
+    display: flex;
+}
+.offer1{
+    margin: 5px;
+}
+.offer1:nth-child(1){
+    margin-left: 10px;
+}
+.offer-img{
+    width: 493px;
+    height: 264px;
+}
+
+.stories{
+    margin-top: 5px;
+    padding: 40px 20px;
+    width: 100%;
+    color: #878787;
+    background-color: #fff;
+    
+}
+.stories h1{
+    line-height: 2;
+
+}
+.stories p ,pre{
+    line-height: 1.5;
+}
+.footer{
+    width: 100%;
+    height: 247px;
+    background-color: #05293f;
+    display: flex;
+    justify-content: space-around;
+    color: #878787;
+    padding-top: 50px;
+    
+    font-size: 12px;
+    
+}
+.footer .info{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    margin-bottom: 0px;
+}
+.info p{
+    margin-bottom: 10px;
+}
+.footer .info a{
+    margin: 8px 10px 8px 0px;
+    font-size: 12px;
+    color: #ffff;
+    font-weight: 400;
+}
+.address{
+    margin: 20px 10px 10px 0px;
+    font-size: 12px;
+    color: #ffff;
+    font-weight: 200;
+    line-height: 0;
+}
+.border{
+    width: auto;
+    height: auto;
+    margin-right: 20px;
+    border-left: solid 1px #878787;
+}
+.border1{
+    margin-left: 20px;
+}
+.footer-end{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #05293f;
+}
+.foot p{
+    margin-left: 25px;
+    margin-top: -9px;
+    color: #ffff;
+}
+.copy p{
+    color: #ffff;
+    margin-top: 5px;
 }
